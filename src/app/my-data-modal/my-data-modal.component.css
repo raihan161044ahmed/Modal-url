@@ -1,0 +1,36 @@
+/* Customize modal header */
+.modal-header {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Customize modal title */
+  .modal-title {
+    color: #333;
+  }
+  
+  /* Customize modal close button */
+  .close {
+    color: #aaa;
+  }
+  
+  /* Customize modal body */
+  .modal-body {
+    padding: 20px;
+  }
+  
+  /* Customize modal footer */
+  .modal-footer {
+    background-color: #f5f5f5;
+    border-top: 1px solid #ccc;
+    padding: 10px 20px;
+  }
+  
+  /* Optional: Center modal vertically */
+  .modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust to your preference */
+  }
+  
