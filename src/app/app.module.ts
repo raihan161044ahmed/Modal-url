@@ -7,9 +7,10 @@ import { MyDataModalComponent } from './my-data-modal/my-data-modal.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { ToastComponent } from './toast/toast-component.component';
+import { WebpagePreviewModalComponent } from './webpage-preview-modal/webpage-preview-modal.component';
 @NgModule({
   declarations: [
-    AppComponent,MyDataModalComponent,ToastComponent
+    AppComponent,MyDataModalComponent,ToastComponent,WebpagePreviewModalComponent
   ],
   imports: [
     BrowserModule,
